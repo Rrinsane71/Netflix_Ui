@@ -9,13 +9,21 @@ body{
 }
 .main {
     background-image: url("assets/images/backg.jpg");
-    height: 80vh;
+    height: 70vh;
     position: relative;
     background-position: center center;
     background-size: max(1500px, 100vw  );
     background-repeat: no-repeat;
 }
 
+.main .box {
+    height: 70vh;
+    width: 100%;
+    opacity: 0.6;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
 nav {
     display: flex;
     align-items: center;
@@ -25,6 +33,7 @@ nav {
     justify-content: space-between;
     /* justify-content: center; */
     height: 60px;
+    background-color: aqua;
 }
 
 nav img {
@@ -42,8 +51,8 @@ nav button {
     font-family: "Martel Sans", serif;
     /* font-weight: 1000; */
     /* font-style: normal; */
-    height: 70%;
-    top: 45px;
+    height: 50%;
+    /* top: 45px; */
     /* background-color: red; */
     color: white;
     position: relative;
@@ -53,22 +62,17 @@ nav button {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    /* text-align: center; */
+    padding-left: 0px;
+    text-align: center;
     /* gap: 5px;   */
-    /* background-color: aqua; */
+    background-color: aqua;/
 }
 
-.main .box {
-    height: 80vh;
-    width: 100%;
-    opacity: 0.6;
-    background-color: black;
-    position: absolute;
-    top: 0;
-}
 
 .hero> :nth-child(1){
     font-weight:bolder;
-    font-size: 45px;
+    font-size: 40px;
 }
 .hero> :nth-child(2){
     font-size: 18px;
@@ -78,18 +82,7 @@ nav button {
     font-size: 18px;
     font-weight: 200;
 }
-/* input{
-    left: 0;
-    width: 45%;
-    height: 50%;
-} */
-/* input ::placeholder{
-
-} */
-/* .start{
-    position: absolute;
-    margin-top: 0;
-    width: 30%;
-    margin-left: 5px;
-    height: 8%;
-} */
+.seperation{
+    height: 10px;
+    background-color: blue
+}
