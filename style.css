@@ -4,13 +4,15 @@
     margin: 0;
     padding: 0;
 }
-
+body{
+    background-color: black;
+}
 .main {
     background-image: url("assets/images/backg.jpg");
     height: 80vh;
     position: relative;
     background-position: center center;
-    background-size: max(1500px, 100vw, );
+    background-size: max(1500px, 100vw  );
     background-repeat: no-repeat;
 }
 
@@ -41,17 +43,18 @@ nav button {
     /* font-weight: 1000; */
     /* font-style: normal; */
     height: 70%;
+    top: 45px;
     /* background-color: red; */
     color: white;
     position: relative;
-    width: 50%;
+    width: 100%;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 10px;  
-    background-color: aqua;
+    /* gap: 5px;   */
+    /* background-color: aqua; */
 }
 
 .main .box {
@@ -63,15 +66,30 @@ nav button {
     top: 0;
 }
 
-.hero :first-child{
+.hero> :nth-child(1){
     font-weight:bolder;
-    font-size: 40px;
+    font-size: 45px;
 }
-.hero :nth-child(2){
+.hero> :nth-child(2){
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 200;
 }
-.hero :nth-child(3){
+.hero>  :nth-child(3){
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 200;
 }
+/* input{
+    left: 0;
+    width: 45%;
+    height: 50%;
+} */
+/* input ::placeholder{
+
+} */
+/* .start{
+    position: absolute;
+    margin-top: 0;
+    width: 30%;
+    margin-left: 5px;
+    height: 8%;
+} */
