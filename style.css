@@ -81,6 +81,7 @@ nav button {
 .hero>  :nth-child(3){
     font-size: 18px;
     font-weight: 200;
+    color: aqua;
 }
 .seperation{
     height: 10px;
