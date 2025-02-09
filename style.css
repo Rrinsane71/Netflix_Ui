@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@800&display=swap');
 
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +13,7 @@ body{
 }
 .main {
     background-image: url("assets/images/backg.jpg");
-    height: 70vh;
+    height: 450px;
     position: relative;
     background-position: center center;
     background-size: max(1500px, 100vw  );
@@ -17,7 +21,7 @@ body{
 }
 
 .main .box {
-    height: 70vh;
+    height: 700px;
     width: 100%;
     opacity: 0.6;
     background-color: black;
@@ -32,8 +36,8 @@ nav {
     margin: auto;
     justify-content: space-between;
     /* justify-content: center; */
-    height: 60px;
-    background-color: aqua;
+    height: 50px;
+    /* background-color: aqua; */
 }
 
 nav img {
@@ -51,7 +55,7 @@ nav button {
     font-family: "Martel Sans", serif;
     /* font-weight: 1000; */
     /* font-style: normal; */
-    height: 50%;
+    height: 300px;
     /* top: 45px; */
     /* background-color: red; */
     color: white;
@@ -64,15 +68,18 @@ nav button {
     flex-direction: column;
     /* text-align: center; */
     padding-left: 0px;
+    /* padding: 0 23px; */
     text-align: center;
-    /* gap: 5px;   */
-    background-color: aqua;
+    gap: 5px;    
+    /* background-color: aqua; */
+    margin-bottom: 100px;
 }
 
 
 .hero> :nth-child(1){
-    font-weight:bolder;
-    font-size: 40px;
+    font-family: Poppins;
+    font-weight: 900;
+    font-size: 35px;
 }
 .hero> :nth-child(2){
     font-size: 18px;
@@ -81,11 +88,40 @@ nav button {
 .hero>  :nth-child(3){
     font-size: 18px;
     font-weight: 200;
-    color: aqua;
+    /* color: aqua; */
 }
-.seperation{
-    height: 10px;
-    background-color: blue;
-    border-radius: 2px;
 
+.seperation{
+    height: 7px;
+    background-color:rgb(50, 47, 47);
+    border-radius: 2px;
+}
+.btn{
+    padding: 3px 5px;
+    font-weight: bolder;
+    background-color: aliceblue;
+    color: aliceblue;
+}
+.started{
+    background-color: red;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.main input{
+    font-size: 10px;
+    padding: 9px 47px 9px 19px;
+    font-weight: 900;
+    border-radius: 5px; 
+    background-color: rgba(23, 23, 23, 0.8);
+    border: 1px solid  rgba(73, 72, 72, 0.8);;
+}
+.hero-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.sn{
+    background-color: red;
 }
