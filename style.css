@@ -97,16 +97,19 @@ nav button {
     border-radius: 2px;
 }
 .btn{
-    padding: 3px 5px;
+    padding: 6px 7px;
     font-weight: bolder;
-    background-color: aliceblue;
+    background-color: rgba(23, 23, 23, 0.8);
     color: aliceblue;
+    border-radius: 5px;
+    border: 1px solid grey;
 }
 .started{
     background-color: red;
     font-size: 20px;
     padding: 5px;
     border-radius: 5px;
+    border: 1px;
 }
 .main input{
     font-size: 10px;
@@ -122,6 +125,14 @@ nav button {
     justify-content: center;
     gap: 16px;
 }
+.nav_btn{
+    display: flex;
+    gap: 10px;
+}
+#sign{
+    font-weight: 200;
+}
 .sn{
     background-color: red;
+    border: 1px;
 }
