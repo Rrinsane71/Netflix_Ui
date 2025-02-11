@@ -9,19 +9,19 @@
     padding: 0;
 }
 body{
-    background-color: black;
+    background-color: rgb(21, 18, 18);
 }
 .main {
     background-image: url("assets/images/backg.jpg");
-    height: 450px;
+    height: 650px;
     position: relative;
     background-position: center center;
-    background-size: max(1500px, 100vw  );
+    background-size: max(150px, 100vw  );
     background-repeat: no-repeat;
 }
 
 .main .box {
-    height: 450px;
+    height: 650px;
     width: 100%;
     opacity: 0.6;
     background-color: black;
@@ -55,12 +55,12 @@ nav button {
     font-family: "Martel Sans", serif;
     /* font-weight: 1000; */
     /* font-style: normal; */
-    height: 300px;
+    height: 76.9%;
     /* top: 45px; */
     /* background-color: red; */
     color: white;
     position: relative;
-    width: 100%;
+    width: 70%;
     margin: auto;
     display: flex;
     align-items: center;
@@ -68,36 +68,43 @@ nav button {
     flex-direction: column;
     /* text-align: center; */
     padding-left: 0px;
-    /* padding: 0 23px; */
     text-align: center;
-    gap: 5px;    
+    gap: 13px;
     /* background-color: aqua; */
     margin-bottom: 100px;
+    padding: 0px 10px 0px 8px;
 }
 
 
+.first> div{
+    margin: 25px 20px;
+}
 .hero> :nth-child(1){
     font-family: Poppins;
     font-weight: 900;
-    font-size: 35px;
+    font-size: 45px;
+    width: 600px;
 }
 .hero> :nth-child(2){
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 200;
 }
 .hero>  :nth-child(3){
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 200;
     /* color: aqua; */
 }
 
 .seperation{
-    height: 7px;
-    background-color:rgb(50, 47, 47);
+    height: 10px;
+    background-color:rgb(43, 45, 43);
     border-radius: 2px;
+    position: relative;
+    box-sizing: border-box;
+    padding: 1px;
 }
 .btn{
-    padding: 6px 7px;
+    padding: 10px 7px;
     font-weight: bolder;
     background-color: rgba(23, 23, 23, 0.8);
     color: aliceblue;
@@ -107,24 +114,31 @@ nav button {
 .started{
     background-color: red;
     font-size: 20px;
-    padding: 5px;
+    padding: 16px;
+    padding-right: 33px;
     border-radius: 5px;
     border: 1px;
 }
-.main input{
-    font-size: 10px;
-    padding: 9px 47px 9px 19px;
-    color: white;
-    /* font-weight: 900; */
-    border-radius: 5px; 
-    background-color: rgba(23, 23, 23, 0.8);
-    border: 1px solid  rgba(73, 72, 72, 0.8);;
+.main input {
+        font-size: 15px;
+        padding: 5px 31px 5px 10px;
+        box-sizing: border-box;
+        color: rgb(255, 5, 5);
+        border-radius: 5px;
+        background-color: rgba(23, 23, 23, 0.8);
+        border: 1px solid rgb(255 217 217 / 80%);
+        height: 56px;
+        width: 223px;
 }
+.hero-btn ::placeholder{
+    color: rgba(205, 210, 215, 0.845);
+}
+
 .hero-btn{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 16px;
+    gap: 16px;   
 }
 .nav_btn{
     display: flex;
@@ -138,35 +152,38 @@ nav button {
     border: 1px;
 }
 
+.slider-container {
+    width: 80vw;
+    height: 50vh;
+    margin: 90px;
+    background-color: aqua;
 
-.first> div{
-    margin: 25px 20px;
 }
-
-
-.cards {
-    /* width: 80vw;
-    height: 60vh; */
+.slider {
+    /* /* width: 80vw; */
+    /* height: 600vh;  */
     border-radius: 10px;
     position: relative;
     display: flex;
     gap: 40px;
-    /* align-items: center; */
-    /* justify-content: center; */
-    left: 100px;
+    left: 93px;
     margin: auto;
-    /* overflow: hidden; */
+    overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.5s ease;
-    /* background-color: aqua; */
     overflow-x: auto;
     scroll-snap-type: x mandatory;
-    width: calc(250px * 4 + 30px);
+    width: calc(300px * 2 + 5px);
+    background-color: aqua;
 
 }
+.slider::-webkit-scrollbar {
+    display: none;
+}   
 .card1 img{
-    width: 20vw;
-    height: 50vh;
+    width: 50px;
+    height: auto;
     scroll-snap-align: start;
+    border-radius: 5px;
+    object-fit: cover;
 }
 
