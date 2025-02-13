@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    margin: 0;
+}
+
+.box {
+    position: relative;
+    width: 700px; /* Adjust based on your mockup size */
+    height: auto;
+}
+
+.mock {
+    position: relative;
+    width: 100%;
+}
+
+.mock img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.mock video {
+    position: absolute;
+    top: 12%; /* Adjust based on the mockup */
+    left: 15%; /* Adjust to fit inside the MacBook screen */
+    width: 70%;
+    height: 65%;
+    object-fit: cover; /* Ensures video fills the space */
+    
+}

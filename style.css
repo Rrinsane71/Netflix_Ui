@@ -13,15 +13,15 @@ body{
 }
 .main {
     background-image: url("assets/images/backg.jpg");
-    height: 650px;
+    height: 80vh;
     position: relative;
     background-position: center center;
-    background-size: max(150px, 100vw  );
+    /* background-size: max(150px, 100vw ); */
     background-repeat: no-repeat;
 }
 
 .main .box {
-    height: 650px;
+    height: 80vh;
     width: 100%;
     opacity: 0.6;
     background-color: black;
@@ -76,8 +76,10 @@ nav button {
 }
 
 
-.first> div{
-    margin: 0px 0   px;
+.first > div h1{
+    color: red;
+    position: relative;
+    padding: 12px 60px ;
 }
 .hero> :nth-child(1){
     font-family: Poppins;
@@ -155,10 +157,10 @@ nav button {
 }
 
 .slider-container {
-    width: 80vw;
-    height: 50vh;
-    margin: 90px;
-    background-color: aqua;
+    width: 70vw;
+    height: 65vh;
+    margin: 30px auto;
+    background-color: rgb(255, 0, 0);
 
 }
 .slider {
@@ -168,13 +170,13 @@ nav button {
     position: relative;
     display: flex;
     gap: 40px;
-    left: 93px;
-    margin: auto;
+    left: 0px;
+    margin:  auto 0px 0px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     overflow-x: auto;
     scroll-snap-type: x mandatory;
-    width: calc(300px * 2 + 5px);
+    width: calc(100px * 2 + 5px);
     background-color: aqua;
 
 }
@@ -182,10 +184,10 @@ nav button {
     display: none;
 }   
 .card1 img{
-    width: 50px;
+    width: 27px;
     height: auto;
     scroll-snap-align: start;
-    border-radius: 5px;
+    border-radius: 20px;
     object-fit: cover;
 }
 
@@ -333,7 +335,7 @@ font-size: 22px;
    flex-direction: column;
    gap: 2px;
    margin: auto;
-   margin-bottom: 72px;
+   margin-bottom: 104px;
    margin-left: 17px;
 }
 .second3> div :nth-child(1){
@@ -356,29 +358,35 @@ font-size: 22px;
 
 
 
-
-
-
 .faq h2{
-    color: aliceblue;
-    font-size: 40px;
+    color: white;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 16px;
+    font-size: 28px;
+}
+.faq{
+    padding: 34px;
+
+}
+.faqbox:hover{
+    background-color:#414141;
+    transition: all 1s ease-out;
+}
+.faqbox{
+    /* transition: all 1s ease-out; */
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 12px;
+    max-width: 49vw;
+    margin: 11px auto;
+    font-size: 22px;
+    color: white;
+    
 }
 
-.box6 span{
-    display: flex;
-    align-items: center;
-    width: 52vw;
-    justify-content: space-around;
-    gap: 535px;
-    margin: auto;
-    background-color: grey;
-    padding: 10px;
-    position: relative;
-    top: 15px;
-    border: 1px solid;
-    }
+
+   
 
 
 
